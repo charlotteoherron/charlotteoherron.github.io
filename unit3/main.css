@@ -1,0 +1,39 @@
+*{margin:0; padding:0; border-box:box-sizing;
+}
+body{
+	background-image:url("images/Middlebury2.jpg");
+	background-size:100%;
+	background-repeat:no-repeat;
+	color: white;
+	font-size: 24px;
+	font-family: arial, Helvetica, sans-serif;
+}
+
+section#splash {
+	height:100vh;
+}
+
+section#splash div{
+	background-color:rgba(255,255,255,.3);
+	color:#666699;
+	width:50%;
+	margin:100px 50px 50px 500px;
+	font-family: 'Lucida Bright', Georgia, serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;}
+
+section#contact {
+	background-color:rgba(211,233,253,.8);
+	height:50vh;
+}
+
+section#contact div{
+	font-size:16px;
+}
+
+h1{
+	font-size:50px;
+	line-height:1.2em;
+}
+
