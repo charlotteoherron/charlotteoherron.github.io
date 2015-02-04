@@ -15,10 +15,10 @@ section#splash {
 }
 
 section#splash div{
-	background-color:rgba(255,255,255,.3);
 	color:#666699;
 	width:50%;
-	margin:100px auto 0 auto;
+	margin:0 auto 0 auto;
+	padding:100px 0 0 0;
 	font-family: 'Lucida Bright', Georgia, serif;
 	font-weight: 500;
 }
@@ -30,9 +30,13 @@ section#contact {
 
 section#contact div{
 }
-
+h1, section#splash p {
+	background:rgba(255,255,255,.5);
+	padding:.5em;
+}
 h1{
 	font-size:2em;
 	line-height:1.2em;
+	margin-bottom:.5em;
 }
 
