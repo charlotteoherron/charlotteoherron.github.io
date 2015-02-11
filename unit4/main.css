@@ -24,8 +24,8 @@ section#splash div{
 
 section#AboutMe {
 	background-color: white;
-	background-repeat:no-repeat;
-	height:50vh;
+	margin:0 auto 0 auto;
+	max-width:75em;
 }
 
 .column{
