@@ -1,0 +1,79 @@
+*{margin:0; padding:0; border-box:box-sizing;
+}
+body{
+	color: black;
+	font-size: 16px;
+	font-family: arial, Helvetica, sans-serif;
+}
+
+section#splash {
+	background-image:url("Midd4.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	font-size:1.5em;
+	height:100vh;
+}
+
+section#splash div{
+	color:#666699;
+	width:50%;
+	margin:0 auto 0 auto;
+	padding:100px 0 0 0;
+	font-family: 'Lucida Bright', Georgia, serif;
+	font-weight: 100;
+}
+
+section#AboutMe {
+	background-color: white;
+	background-repeat:no-repeat;
+	height:50vh;
+}
+
+.column{
+	width:30%;
+	height:30%;
+	margin:50px auto 0 auto;
+	padding:0 0 0 0;
+}
+
+.column div{
+
+
+}
+h1, section#splash p {
+	background:rgba(255,255,255,.5);
+	padding:.5em;
+	color:#FFFF00;
+}
+
+h1{
+	font-size:2em;
+	line-height:1.2em;
+	margin-bottom:.5em;
+	font-family: 'Gotham A', 'Gotham B', sans-serif;
+	font-weight:100;
+	color:#FFFF00;
+}
+
+h3{
+	font-size:1.2em;
+	font-family: 'Gotham A', 'Gotham B', sans-serif;
+	font-weight:500;
+	color:#FFFF00;
+}
+
+p, section#splash p {
+	color: #606060;
+	font-family: 'Crimson Text', serif;
+}
+section#contact {
+	background-color:rgba(211,233,253,.8);
+	padding:2em;
+
+}
+NOTES
+	font-family: 'EB Garamond', serif;
+	p.center {
+    text-align: center;
+    color: red;
+}
