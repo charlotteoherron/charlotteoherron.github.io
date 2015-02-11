@@ -70,9 +70,18 @@ section#contact {
 	padding:2em;
 
 }
-NOTES
+/*NOTES
 	font-family: 'EB Garamond', serif;
 	p.center {
     text-align: center;
     color: red;
+html comment: <!-- blah -->
+}*/
+
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
 }
