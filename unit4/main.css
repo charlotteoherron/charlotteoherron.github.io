@@ -30,15 +30,15 @@ section#AboutMe {
 }
 
 .column{
-	width:30%;
-	height:30%;
+	float:left;
+	width:50%;
 	margin:50px auto 0 auto;
-	padding:0 0 0 0;
+	padding:0 1em 0 1em;
 }
 
-.column div{
-
-
+.column img {
+	display:block;
+	width:100%;
 }
 h1, section#splash p {
 	background:rgba(255,255,255,.5);
