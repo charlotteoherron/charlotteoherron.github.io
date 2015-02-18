@@ -1,8 +1,8 @@
 *{margin:0; padding:0; box-sizing:border-box;}
 body{
-	color: black;
+	color:#666699;
 	font-size: 16px;
-	font-family: arial, Helvetica, sans-serif;
+	font-family: 'Lucida Bright', Georgia, serif;
 }
 
 section#splash {
@@ -20,6 +20,29 @@ section#splash div{
 	padding:100px 0 0 0;
 	font-family: 'Lucida Bright', Georgia, serif;
 	font-weight: 100;
+}
+nav {
+	background-color: rgba(255,255,0,.5);
+	padding:.5em;
+	position:absolute;
+	bottom: 0px;
+	width:100%;
+	display:block;
+}
+
+section #splash ul{
+	list-style-type: none;
+}
+section#splash li{
+	display: inline;
+	font-family: 'Gotham A', 'Gotham B', sans-serif;
+	font-size:.75em;
+	font-weight:500;
+	font-color:rgba(255,255,0,.5);
+	background-color: rgba(255,255,255,.75);
+	text-transform:uppercase;
+	float:left;
+	width:20%;
 }
 
 section#AboutMe {

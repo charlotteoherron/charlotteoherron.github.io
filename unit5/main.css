@@ -1,0 +1,88 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+body{
+	color: #000000;
+	font-size: 16px;
+	font-family: 'Lucida Bright', Georgia, serif;
+}
+
+section#splash {
+	background-image:url("images/background_Nicole.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	height:100vh;
+}
+
+#splash #title{
+	padding:400px 0 0 0;
+	font-size:1.5em;
+}
+
+h1, section#splash p{
+	background:rgba(255,255,255,.5);
+	margin-bottom:.5em;
+	color: #33CCCC;
+	font-size:2em;
+	padding:.5em;
+	font-family: 'Gotham A', 'Gotham B', sans-serif;
+	font-weight: 100;
+}
+	
+section#splash nav{
+	padding: .5em .5em;
+	float:right;
+}
+
+section#splash ul{
+	list-style-type: none;
+
+}
+section#splash li{
+	color:white;
+	display: inline;
+	font-size:1em;
+	text-transform:uppercase;
+	padding: 0 0 0 1em;
+}
+
+#splash #mission{
+	width:50%;
+}
+
+section#portfolio{
+}
+
+.column{
+	float:left;
+	width:50%;
+	margin:50px auto 0 auto;
+	padding:0 1em 0 1em;
+}
+
+.column img {
+	display:block;
+	width:100%;
+}
+
+h3 {
+	color: #33CCCC;
+	font-size:1.5em;
+	font-family: 'Gotham A', 'Gotham B', sans-serif;
+	font-weight: 100;
+}
+
+p{
+	font-family: 'Lucida Bright', Georgia, serif;
+	color: black;
+	font-size:1em;
+}
+
+}
+
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
