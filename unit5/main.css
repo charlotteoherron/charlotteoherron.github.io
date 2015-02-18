@@ -42,11 +42,13 @@ section#splash li{
 	display: inline;
 	font-size:1em;
 	text-transform:uppercase;
-	padding: 0 0 0 1em;
+	padding: 0 1em;
 }
 
-#splash #mission{
+section#splash section#mission{
 	width:50%;
+	height: auto;
+	display: block;
 }
 
 section#portfolio{
@@ -71,12 +73,10 @@ h3 {
 	font-weight: 100;
 }
 
-p{
+p {
 	font-family: 'Lucida Bright', Georgia, serif;
 	color: black;
 	font-size:1em;
-}
-
 }
 
 .clearfix:after { 
