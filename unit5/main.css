@@ -13,12 +13,15 @@ section#splash {
 	height:100vh;
 }
 
-#splash #title{
-	padding:400px 0 0 0;
+#title {
 	font-size:1.5em;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+
 }
 
-h1, section#splash p{
+h1 {
 	background:rgba(255,255,255,.5);
 	margin-bottom:.5em;
 	color: #33CCCC;
@@ -45,13 +48,15 @@ section#splash li{
 	padding: 0 1em;
 }
 
-section#splash section#mission{
+section#mission{
 	width:50%;
-	height: auto;
 	display: block;
+	margin: 2em;
+
 }
 
 section#portfolio{
+	margin: 2em;
 }
 
 .column{
