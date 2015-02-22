@@ -13,57 +13,78 @@ section#splash {
 	height:100vh;
 }
 
-#title {
-	font-size:1.5em;
+#splash h1 {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
-
+	padding:.5em;
+	margin-right: 0;
+/*
+	border-bottom: 4px solid #33CCCC;
+	*/
 }
 
-h1 {
-	background:rgba(255,255,255,.5);
-	margin-bottom:.5em;
+#splash span {
 	color: #33CCCC;
-	font-size:2em;
-	padding:.5em;
-	font-family: 'Gotham A', 'Gotham B', sans-serif;
-	font-weight: 100;
 }
 	
-section#splash nav{
-	padding: .5em .5em;
-	float:right;
+nav {
+	background-color: #33CCCC;
 }
 
-section#splash ul{
-	list-style-type: none;
-
-}
-section#splash li{
+nav a {
+	background-color: none;
 	color:white;
-	display: inline;
-	font-size:1em;
-	text-transform:uppercase;
-	padding: 0 1em;
+	text-decoration: none;
+	float: right;
+	text-transform: uppercase;
+	padding: 1em 2em;
+	font-size: 1em;
+	font-weight: 400;
 }
 
-section#mission{
-	width:50%;
-	display: block;
-	margin: 2em;
+a:hover{
+	background-color: orange;
+}
 
+nav ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+section#About {
+	padding: 2em 0;
+
+}
+
+#About h3{
+	border-bottom: 4px solid #FF9900;
 }
 
 section#portfolio{
-	margin: 2em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+section#portfolio h3{
+	background-color: orange;
+	color:white;
+	display:inline;
+	padding: .25em 1.5em;
+	border: 4px solid #33CCCC;
+	font-size: 2em;
+}
+
+section#portfolio div{
+	margin: 4em 4em;
 }
 
 .column{
 	float:left;
 	width:50%;
-	margin:50px auto 0 auto;
-	padding:0 1em 0 1em;
+	margin:0 auto 0 auto;
+	padding:0 2em 2em 2em;
 }
 
 .column img {
@@ -71,9 +92,23 @@ section#portfolio{
 	width:100%;
 }
 
+h1 {
+	color: white;
+	font-size:3em;
+	font-family: 'Gotham A', 'Gotham B', sans-serif;
+	font-weight: 800;
+}
+
 h3 {
 	color: #33CCCC;
 	font-size:1.5em;
+	font-family: 'Gotham A', 'Gotham B', sans-serif;
+	font-weight: 400;
+}
+
+h4 {
+	color: #FF9900;
+	font-size:1.25em;
 	font-family: 'Gotham A', 'Gotham B', sans-serif;
 	font-weight: 100;
 }
@@ -85,9 +120,10 @@ p {
 }
 
 .clearfix:after { 
-	content: "."; 
+	content: " "; 
 	visibility: hidden; 
 	display: block; 
 	height: 0; 
 	clear: both;
+	font-size: 0;
 }
