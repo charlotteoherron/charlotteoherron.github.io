@@ -33,13 +33,12 @@ nav {
 
 nav a {
 	color: #336699;
+	display:block;
 	text-decoration: none;
-	float: right;
 	text-transform: uppercase;
-	padding: 2em 2em;
+	padding: 1em 2em;
 	font-size: 1em;
 	font-weight: 500;
-	margin: 0 5em;
 }
 
 a:hover{
@@ -48,8 +47,14 @@ a:hover{
 
 nav ul{
 	list-style: none;
-	margin:0;
+	margin:0 auto;
+	max-width:75em;
 	padding:0;
+}
+nav li {
+	float:left;
+	text-align:center;
+	width:25%;
 }
 
 section#AboutMe {
