@@ -1,0 +1,119 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+body{
+	color:#666699;
+	font-size: 16px;
+	font-family: 'Lucida Bright', Georgia, serif;
+}
+
+section#splash {
+	background-image:url("images/Cowsthree.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	height:100vh;
+}
+
+section#splash div{
+	padding-top: 200px;
+	margin: 0 auto 0 auto;
+	text-align: center;
+
+}
+/*
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	color:#666699;
+	width:50%;
+	*/
+
+nav {
+	background-color: white;
+}
+
+nav a {
+	color: #336699;
+	text-decoration: none;
+	float: right;
+	text-transform: uppercase;
+	padding: 2em 2em;
+	font-size: 1em;
+	font-weight: 500;
+	margin: 0 5em;
+}
+
+a:hover{
+	background-color: #FFFF00;
+}
+
+nav ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+section#AboutMe {
+	background-color: white;
+	margin:0 auto 0 auto;
+	max-width:75em;
+}
+
+.column{
+	float:left;
+	width:50%;
+	margin:50px auto 0 auto;
+	padding:0 1em 0 1em;
+}
+
+.column img {
+	display:block;
+	width:100%;
+}
+
+section#splash h3 {
+	color: yellow;
+}
+
+section#splash h1 {
+	color:white;
+}
+
+h1{
+	font-size:4em;
+	line-height:1.2em;
+	margin-bottom:.5em;
+	font-family: 'Gotham A', 'Gotham B', sans-serif;
+	font-weight:600;
+	color:#FFFF00;
+}
+
+h3 {
+	font-size:2em;
+	color: #606060;
+	font-family: 'Crimson Text', serif;
+	font-weight: 300
+}
+	
+}
+section#contact {
+	background-color:rgba(211,233,253,.8);
+	padding:2em;
+
+}
+/*NOTES
+	font-family: 'EB Garamond', serif;
+	p.center {
+    text-align: center;
+    color: red;
+html comment: <!-- blah -->
+font-family: 'Lucida Bright', Georgia, serif;
+
+}*/
+
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
