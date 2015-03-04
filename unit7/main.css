@@ -86,11 +86,14 @@ section#AboutMe {
 
 #AboutMe img {
 	display:block;
-	width:100%;
+	/*width:100%;*/
+	max-width: 350px;
+	margin: 0 auto 4em auto;
 }
 
 #AboutMe h3{
-	border-bottom: 4px solid green;
+	border-bottom: 4px solid yellow;
+	margin-bottom: .5em;
 }
 
 section#splash h3 {
@@ -112,7 +115,7 @@ h1{
 
 h3 {
 	font-size:2em;
-	color: yellow;
+	color: #336699;
 	font-family: 'Crimson Text', serif;
 	font-weight: 700;
 }
@@ -120,6 +123,7 @@ h3 {
 
 p{
 	font-size: 12px;
+	line-height: 1.5;
 	color: black;
 	font-family: 'Lucida Bright', Georgia, serif;
 }
@@ -130,6 +134,15 @@ section#contact {
 	padding:2em;
 
 }
+
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
 /*NOTES
 	font-family: 'EB Garamond', serif;
 	p.center {
@@ -139,11 +152,3 @@ html comment: <!-- blah -->
 font-family: 'Lucida Bright', Georgia, serif;
 
 }*/
-
-.clearfix:after { 
-	content: "."; 
-	visibility: hidden; 
-	display: block; 
-	height: 0; 
-	clear: both;
-}
