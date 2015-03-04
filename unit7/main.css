@@ -96,6 +96,10 @@ section#AboutMe {
 	margin-bottom: .5em;
 }
 
+#Experience h3{
+	border-bottom: 4px solid yellow;
+	margin-bottom: .5em;
+}
 section#splash h3 {
 	color: yellow;
 }
