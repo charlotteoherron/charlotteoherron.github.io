@@ -36,6 +36,10 @@ nav a {
 	display:block;
 	text-decoration: none;
 	text-transform: uppercase;
+<<<<<<< Updated upstream
+=======
+	padding: 2em 3em;
+>>>>>>> Stashed changes
 	padding: 1em 2em;
 	font-size: 1em;
 	font-weight: 500;
@@ -48,6 +52,10 @@ a:hover{
 nav ul{
 	list-style: none;
 	margin:0 auto;
+<<<<<<< Updated upstream
+=======
+	max-width: 75em;
+>>>>>>> Stashed changes
 	max-width:75em;
 	padding:0;
 }
@@ -56,11 +64,26 @@ nav li {
 	text-align:center;
 	width:25%;
 }
+<<<<<<< Updated upstream
+=======
+
+
+
+nav li {
+	float:left;
+	text-align:center;
+	width:25%;
+}
+>>>>>>> Stashed changes
 
 section#AboutMe {
 	background-color: white;
-	margin:0 auto 0 auto;
-	max-width:75em;
+}
+
+.wrap {
+	max-width: 75em;
+	margin: 0 auto 0 auto;
+	height: auto;
 }
 
 .column{
@@ -70,9 +93,13 @@ section#AboutMe {
 	padding:0 1em 0 1em;
 }
 
-.column img {
+#AboutMe img {
 	display:block;
 	width:100%;
+}
+
+#AboutMe h3{
+	border-bottom: 4px solid green;
 }
 
 section#splash h3 {
@@ -94,11 +121,18 @@ h1{
 
 h3 {
 	font-size:2em;
-	color: #606060;
+	color: yellow;
 	font-family: 'Crimson Text', serif;
-	font-weight: 300
+	font-weight: 700;
 }
 	
+
+p{
+	font-size: 12px;
+	color: black;
+	font-family: 'Lucida Bright', Georgia, serif;
+}
+
 }
 section#contact {
 	background-color:rgba(211,233,253,.8);
