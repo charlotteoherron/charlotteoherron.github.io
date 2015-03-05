@@ -77,7 +77,7 @@ section#AboutMe {
 }
 
 .wrap {
-	max-width: 1000px;
+	max-width: 1200px;
 	margin: 0 auto;
 	height: auto;
 }
@@ -85,7 +85,7 @@ section#AboutMe {
 #AboutMe img {
 	display:block;
 	/*width:100%;*/
-	max-width: 300px;
+	max-width: 350px;
 	margin: 0 auto 0 auto;
 }
 
