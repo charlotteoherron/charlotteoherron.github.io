@@ -90,8 +90,6 @@ section#AboutMe {
 }
 
 #Experience {
-	padding: 4em 0;
-	text-align: center;
 	background-image:url("images/citytwo.jpg");
 	background-size:cover;
 	background-attachment:fixed;
@@ -99,15 +97,13 @@ section#AboutMe {
 }
 
 #Experience h2 {
-	display:inline;
 }
-
-#Experience div {
-	margin-top: 1em;
-}
-
 #Experience li{
 	list-style-type: circle;
+}
+.film {
+	padding: 4em 0;
+	background:rgba(0,0,0,.3);
 }
 
 .column{
