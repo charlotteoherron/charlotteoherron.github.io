@@ -17,8 +17,15 @@ section#splash div{
 	padding-top: 200px;
 	margin: 0 auto 0 auto;
 	text-align: center;
-
 }
+
+section#splash p{
+	font-size:2em;
+	color: yellow;
+	font-family: 'Crimson Text', serif;
+	font-weight: 700;
+}
+
 /*
 	position: relative;
 	top: 50%;
@@ -35,21 +42,18 @@ nav a {
 	color: #336699;
 	display:block;
 	text-decoration: none;
-	text-transform: uppercase;
-	padding: 2em 3em;
-	padding: 1em 2em;
-	font-size: 1em;
-	font-weight: 500;
+	margin: 2em 0;
+	font-size: 1.2em;
+	font-weight: 600;
 }
 
 a:hover{
-	background-color: #FFFF00;
+	color: #5F9EA0;
 }
 
 nav ul{
 	list-style: none;
 	margin:0 auto;
-	max-width: 75em;
 	max-width:75em;
 	padding:0;
 }
@@ -59,8 +63,6 @@ nav li {
 	width:25%;
 }
 
-
-
 nav li {
 	float:left;
 	text-align:center;
@@ -68,62 +70,85 @@ nav li {
 }
 
 section#AboutMe {
+	padding: 3em 0;
 	background-color: white;
+	border-bottom: 2px solid #A8A8AC;
+	border-top: 2px solid #A8A8AC;
 }
 
 .wrap {
-	max-width: 75em;
-	margin: 0 auto 0 auto;
+	max-width: 1000px;
+	margin: 0 auto;
 	height: auto;
-}
-
-.column{
-	float:left;
-	width:50%;
-	margin:50px auto 0 auto;
-	padding:0 1em 0 1em;
 }
 
 #AboutMe img {
 	display:block;
 	/*width:100%;*/
-	max-width: 350px;
-	margin: 0 auto 4em auto;
+	max-width: 300px;
+	margin: 0 auto 0 auto;
 }
 
-#AboutMe h3{
-	border-bottom: 4px solid yellow;
-	margin-bottom: .5em;
+#Experience {
+	padding: 4em 0;
+	text-align: center;
+	background-image:url("images/citytwo.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
 }
 
-#Experience h3{
-	border-bottom: 4px solid yellow;
-	margin-bottom: .5em;
-}
-section#splash h3 {
-	color: yellow;
+#Experience h2 {
+	display:inline;
 }
 
-section#splash h1 {
-	color:white;
+#Experience div {
+	margin-top: 1em;
 }
 
-h1{
+#Experience li{
+	list-style-type: circle;
+}
+
+.column{
+	float:left;
+	width:50%;
+	margin:0 auto 0 auto;
+	padding:1em 1em;
+}
+
+.squares {
+	background: rgba(255,255,235,.8);
+	float:left;
+	margin:.5%;
+	padding:1em 2em 1em 1em;
+	width:49%;
+}
+
+h1 {
+	color: white;
 	font-size:4em;
 	line-height:1.2em;
 	margin-bottom:.5em;
 	font-family: 'Gotham A', 'Gotham B', sans-serif;
 	font-weight:600;
-	color:#FFFF00;
 }
 
-h3 {
+h2{
+	border-bottom: 4px solid yellow;
+	margin-bottom: .5em;
 	font-size:2em;
 	color: #336699;
-	font-family: 'Crimson Text', serif;
-	font-weight: 700;
+	font-family: 'Gotham A', 'Gotham B', sans-serif;
+	font-weight: 500;
+	display: inline-block;
 }
-	
+
+h3{
+	color: #336699;
+	font-size: 1em;
+	font-family: 'Crimson Text', serif;
+}
 
 p{
 	font-size: 12px;
@@ -132,11 +157,16 @@ p{
 	font-family: 'Lucida Bright', Georgia, serif;
 }
 
+li {
+	font-size: 12px;
+	line-height: 1.5;
+	color: black;
+	font-family: 'Lucida Bright', Georgia, serif;
 }
-section#contact {
-	background-color:rgba(211,233,253,.8);
-	padding:2em;
 
+section#contact {
+	background: rgba(211,233,253,.8);
+	padding:2em;
 }
 
 .clearfix:after { 
