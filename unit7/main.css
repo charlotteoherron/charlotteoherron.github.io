@@ -24,6 +24,7 @@ section#splash p{
 	color: yellow;
 	font-family: 'Crimson Text', serif;
 	font-weight: 700;
+	text-align: center;
 }
 
 /*
@@ -74,6 +75,7 @@ section#AboutMe {
 	background-color: white;
 	border-bottom: 2px solid #A8A8AC;
 	border-top: 2px solid #A8A8AC;
+	border-radius: 1em;
 }
 
 .wrap {
@@ -87,6 +89,7 @@ section#AboutMe {
 	/*width:100%;*/
 	max-width: 350px;
 	margin: 0 auto 0 auto;
+
 }
 
 #Experience {
@@ -94,13 +97,20 @@ section#AboutMe {
 	background-size:cover;
 	background-attachment:fixed;
 	background-repeat:no-repeat;
+	text-align: center;
+	border-radius: 1em;
+
 }
 
-#Experience h2 {
+#Experience h2{
+	color:yellow;
+	border-bottom: 4px solid #336699;
 }
+
 #Experience li{
 	list-style-type: circle;
 }
+
 .film {
 	padding: 4em 0;
 	background:rgba(0,0,0,.3);
@@ -130,7 +140,7 @@ h1 {
 	font-weight:600;
 }
 
-h2{
+h2 {
 	border-bottom: 4px solid yellow;
 	margin-bottom: .5em;
 	font-size:2em;
@@ -151,6 +161,7 @@ p{
 	line-height: 1.5;
 	color: black;
 	font-family: 'Lucida Bright', Georgia, serif;
+	text-align: left;
 }
 
 li {
@@ -158,6 +169,7 @@ li {
 	line-height: 1.5;
 	color: black;
 	font-family: 'Lucida Bright', Georgia, serif;
+	text-align: left;
 }
 
 section#contact {
