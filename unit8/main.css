@@ -69,7 +69,6 @@ section#AboutMe {
 	background-color: #FFFFFD;
 	border-bottom: 2px solid #A8A8AC;
 	border-top: 2px solid #A8A8AC;
-	border-radius: 1em;
 }
 
 .wrap {
@@ -78,11 +77,14 @@ section#AboutMe {
 	height: auto;
 }
 
+#Aboutmetext p{
+	text-align: justify;
+}
+
 #AboutMe img {
 	display:block;
 	width:75%;
 	margin: 3.75em auto 0 auto;
-
 }
 
 #Experience {
@@ -91,30 +93,38 @@ section#AboutMe {
 	background-attachment:fixed;
 	background-repeat:no-repeat;
 	text-align: center;
-	border-radius: 1em;
-
 }
-
 
 #Experience h2{
+	display: inline-block;
 	color: white;
-	border-bottom: none;
-	/*border-bottom: 4px solid #336699;*/
-	display: block;
 }
 
-#Experience li{
-	list-style-type: circle;
+.wrap .first {
+	margin-bottom: 2em;
+	text-align: center;
+	color: white;
 }
 
-#Experience img {
-	display:block;
-	width:50px;
-	border-radius:50px/50px;
+#Experience p{
+	text-align: left;
 }
+
 .film {
 	padding: 4em 0;
 	background:rgba(0,0,0,.2);
+}
+
+#Academics{
+	text-align: center;
+	padding-top: 2em;
+}
+
+#Academics li{
+	font-size: 14px;
+	line-height: 1.5;
+	color: black;
+	font-family: 'Lucida Bright', Georgia, serif;
 }
 
 .column{
@@ -139,9 +149,11 @@ section#AboutMe {
 	padding-top: 1em
 }
 
-.responsibilities {
-	
+#educationlist {
+	border-top: 1px solid black;
+	padding-top: 1em
 }
+
 h1 {
 	color: white;
 	font-size:4em;
@@ -152,7 +164,7 @@ h1 {
 }
 
 h2 {
-	border-bottom: 4px solid yellow;
+	border-bottom: 4px solid #33D685;
 	margin-bottom: .5em;
 	font-size:2em;
 	color: #336699;
