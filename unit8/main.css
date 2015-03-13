@@ -72,7 +72,7 @@ section#AboutMe {
 }
 
 .wrap {
-	max-width: 50em;
+	max-width: 60em;
 	margin: 0 auto;
 	height: auto;
 }
@@ -85,6 +85,7 @@ section#AboutMe {
 	display:block;
 	width:75%;
 	margin: 3.75em auto 0 auto;
+	border-radius: .5em;
 }
 
 #Experience {
@@ -106,9 +107,6 @@ section#AboutMe {
 	color: white;
 }
 
-#Experience p{
-	text-align: left;
-}
 
 .film {
 	padding: 4em 0;
@@ -142,11 +140,13 @@ section#AboutMe {
 	padding:1em 2em;
 	width:49%;
 	margin:.5%;
+	border-radius: .5em;
 }
 
 .squares p {
 	border-top: 1px solid black;
-	padding-top: 1em
+	padding-top: 1em;
+	text-align: left;
 }
 
 #educationlist {
