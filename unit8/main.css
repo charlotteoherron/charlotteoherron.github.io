@@ -1,0 +1,218 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+body{
+	color:#666699;
+	font-size: 16px;
+	font-family: 'Lucida Bright', Georgia, serif;
+}
+
+section#splash {
+	background-image:url("images/Cowblue2.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	height:100vh;
+}
+
+section#splash div{
+	padding-top: 150px;
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+
+section#splash p{
+	font-size:2em;
+	color: yellow;
+	font-family: 'Crimson Text', serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+/*
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	color:#666699;
+	width:50%;
+	*/
+
+nav {
+	background-color: #FFFFFD;
+}
+
+nav a {
+	color: #336699;
+	display:block;
+	text-decoration: none;
+	margin: 2em 0;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+a:hover{
+	color: #5F9EA0;
+}
+
+nav ul{
+	list-style: none;
+	margin:0 auto;
+	max-width:50em;
+	padding:0;
+}
+nav li {
+	float:left;
+	text-align:center;
+	width:20%;
+}
+
+section#AboutMe {
+	padding: 3em 0;
+	background-color: #FFFFFD;
+	border-bottom: 2px solid #A8A8AC;
+	border-top: 2px solid #A8A8AC;
+	border-radius: 1em;
+}
+
+.wrap {
+	max-width: 50em;
+	margin: 0 auto;
+	height: auto;
+}
+
+#AboutMe img {
+	display:block;
+	width:75%;
+	margin: 3.75em auto 0 auto;
+
+}
+
+#Experience {
+	background-image:url("images/citytwo.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	text-align: center;
+	border-radius: 1em;
+
+}
+
+
+#Experience h2{
+	color: white;
+	border-bottom: none;
+	/*border-bottom: 4px solid #336699;*/
+	display: block;
+}
+
+#Experience li{
+	list-style-type: circle;
+}
+
+#Experience img {
+	display:block;
+	width:50px;
+	border-radius:50px/50px;
+}
+.film {
+	padding: 4em 0;
+	background:rgba(0,0,0,.2);
+}
+
+.column{
+	float:left;
+	width:50%;
+	margin:0 auto 0 auto;
+	padding:1em 1em;
+	border-radius: .25em;
+}
+
+.squares {
+	background-color: #FFFFFD;
+	float:left;
+	/*margin:.5%;*/
+	padding:1em 2em;
+	width:49%;
+	margin:.5%;
+}
+
+.squares p {
+	border-top: 1px solid black;
+	padding-top: 1em
+}
+
+.responsibilities {
+	
+}
+h1 {
+	color: white;
+	font-size:4em;
+	line-height:1.2em;
+	margin-bottom:.5em;
+	font-family: 'Gotham A', 'Gotham B', sans-serif;
+	font-weight:600;
+}
+
+h2 {
+	border-bottom: 4px solid yellow;
+	margin-bottom: .5em;
+	font-size:2em;
+	color: #336699;
+	font-family: 'Gotham A', 'Gotham B', sans-serif;
+	font-weight: 500;
+	display: inline-block;
+}
+
+h3{
+	color: #33D685;
+	font-size: 1.5em;
+	/*font-family: 'Varela Round', arial, sans-serif;*/
+	font-family:'trebuchet ms', sans-serif;
+}
+
+h4{
+	font-size: 14px;
+	color: black;
+	font-family: 'Lucida Bright', Georgia, serif;
+	padding: 1em 0;
+	font-style: italic;
+	font-weight: normal;
+
+}
+
+p {
+	font-size: 14px;
+	line-height: 1.5;
+	color: black;
+	font-family: 'Lucida Bright', Georgia, serif;
+	text-align: left;
+}
+
+li {
+	font-size: 12px;
+	line-height: 1.5;
+	color: black;
+	font-family: 'Lucida Bright', Georgia, serif;
+	text-align: left;
+}
+
+section#contact {
+	background: rgba(211,233,253,.8);
+	padding:2em;
+}
+
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
+/*NOTES
+	font-family: 'EB Garamond', serif;
+	p.center {
+    text-align: center;
+    color: red;
+html comment: <!-- blah -->
+font-family: 'Lucida Bright', Georgia, serif;
+
+}*/
