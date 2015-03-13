@@ -6,7 +6,7 @@ body{
 }
 
 section#splash {
-	background-image:url("images/Cowblue2.jpg");
+	background-image:url("images/cowblue2.jpg");
 	background-size:cover;
 	background-attachment:fixed;
 	background-repeat:no-repeat;
