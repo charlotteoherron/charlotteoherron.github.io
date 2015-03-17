@@ -125,10 +125,6 @@ section#AboutMe {
 	font-family: 'Lucida Bright', Georgia, serif;
 }
 
-.column span {
-	line-height: 1.5em;
-	font-color: yellow;
-}
 
 .column{
 	float:left;
@@ -137,6 +133,7 @@ section#AboutMe {
 	padding:1em 1em;
 	border-radius: .25em;
 }
+
 
 .squares {
 	background-color: #FFFFFD;
@@ -214,6 +211,11 @@ li {
 section#contact {
 	background: rgba(211,233,253,.8);
 	padding:2em;
+}
+
+.green{
+	font-style: italic;
+	font-color: green;
 }
 
 .clearfix:after { 
