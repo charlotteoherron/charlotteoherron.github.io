@@ -125,6 +125,11 @@ section#AboutMe {
 	font-family: 'Lucida Bright', Georgia, serif;
 }
 
+.column span {
+	line-height: 1.5em;
+	font-color: yellow;
+}
+
 .column{
 	float:left;
 	width:50%;
