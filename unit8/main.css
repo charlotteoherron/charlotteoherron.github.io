@@ -166,6 +166,11 @@ section#AboutMe {
 	border-radius: .25em;
 }
 
+#unique {
+	float:none;
+	margin:none;
+}
+
 .research img {
 	display: block;
 	width:100%;
