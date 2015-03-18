@@ -134,6 +134,9 @@ section#AboutMe {
 	border-radius: .25em;
 }
 
+.spain {
+	margin-top: 2em;
+}
 
 .squares {
 	background-color: #FFFFFD;
@@ -155,6 +158,30 @@ section#AboutMe {
 	border-top: 1px solid black;
 	padding-top: 1em
 }
+
+.research {
+	width:50%;
+	margin:0 auto 0 auto;
+	padding:1em 1em;
+	border-radius: .25em;
+}
+
+.research img {
+	display: block;
+	width:100%;
+	margin: 1em auto 0 auto;
+}
+
+.column img {
+	display: block;
+	width:75%;
+	margin: 0 auto 0 auto;
+}
+
+.column #climate {
+	width: 50%;
+}
+
 
 h1 {
 	color: white;
@@ -213,7 +240,7 @@ section#contact {
 	padding:2em;
 }
 
-.green{
+.green {
 	font-style: italic;
 	font-color: green;
 }
