@@ -97,9 +97,9 @@ section#AboutMe {
 }
 
 #Experience h2{
-	display: inline-block;
 	color: white;
 }
+
 
 .wrap .first {
 	margin-bottom: 2em;
@@ -115,7 +115,8 @@ section#AboutMe {
 
 #Academics{
 	text-align: center;
-	padding-top: 2em;
+	padding: 2em 0 2em 0;
+	background-color: #FFFFFD;
 }
 
 #Academics li{
@@ -187,6 +188,25 @@ section#AboutMe {
 	width: 50%;
 }
 
+section#contact {
+	padding: 2em 0 2em 0;
+	background-image:url("images/midd_fall.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	text-align: center;
+}
+#contact h2 {
+	color: white;
+}
+
+#contact_info {
+	background-color: #FFFFFD;
+	margin: 0 auto 0 auto;
+	width:50%;
+	border-radius: .5em;
+}
+
 
 h1 {
 	color: white;
@@ -240,10 +260,7 @@ li {
 	text-align: left;
 }
 
-section#contact {
-	background: rgba(211,233,253,.8);
-	padding:2em;
-}
+
 
 .green {
 	font-style: italic;
