@@ -5,6 +5,63 @@ body{
 	font-family: 'Lucida Bright', Georgia, serif;
 }
 
+
+h1 {
+	color: white;
+	font-size:4em;
+	line-height:1.2em;
+	margin-bottom:.5em;
+	font-family: 'Gotham A', 'Gotham B', sans-serif;
+	font-weight:600;
+}
+
+h2 {
+	border-bottom: 4px solid #33D685;
+	margin-bottom: .5em;
+	font-size:2em;
+	color: #336699;
+	font-family: 'Gotham A', 'Gotham B', sans-serif;
+	font-weight: 500;
+	display: inline-block;
+	text-align: center;
+}
+
+h3{
+	color: #33D685;
+	font-size: 1.5em;
+	/*font-family: 'Varela Round', arial, sans-serif;*/
+	font-family:'trebuchet ms', sans-serif;
+	font-weight: 200;
+}
+
+h4{
+	font-size: 1em;
+	color: #4d4d4d;
+	font-family:'trebuchet ms', sans-serif;
+	padding: 1em 0;
+	font-style: italic;
+	font-weight: 100;
+
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.5;
+	color: #4d4d4d;
+	/*font-family: 'Lucida Bright', Georgia, serif;*/
+	font-family: 'vollkorn', serif;
+	text-align: left;
+	font-weight: 200;
+}
+
+li {
+	font-size: 14px;
+	line-height: 1.5;
+	color: #4d4d4d;
+	font-family: 'vollkorn', serif;
+	text-align: left;
+}
+
 section#splash {
 	background-image:url("images/cowblue2.jpg");
 	background-size:cover;
@@ -20,9 +77,9 @@ section#splash div{
 }
 
 section#splash p{
-	font-size:2em;
+	font-size:1.8em;
 	color: yellow;
-	font-family: 'Crimson Text', serif;
+	font-family: 'vollkorn', serif;
 	font-weight: 700;
 	text-align: center;
 }
@@ -122,8 +179,8 @@ section#AboutMe {
 #Academics li{
 	font-size: 14px;
 	line-height: 1.5;
-	color: black;
-	font-family: 'Lucida Bright', Georgia, serif;
+	color: #4d4d4d;
+	font-family: 'vollkorn', serif;
 }
 
 
@@ -150,46 +207,53 @@ section#AboutMe {
 }
 
 .squares p {
-	border-top: 1px solid black;
+	border-top: 1px solid #4d4d4d;
 	padding-top: 1em;
 	text-align: left;
 }
 
 #educationlist {
-	border-top: 1px solid black;
+	border-top: 1px solid #4d4d4d;
 	padding-top: 1em
 }
 
-.research {
-	width:50%;
-	margin:0 auto 0 auto;
-	padding:1em 1em;
-	border-radius: .25em;
-}
+#Research {
+	text-align: center;
+	background-color: #FFFFFD;
+	margin-bottom: 2em;
 
-#unique {
-	float:none;
-	margin:none;
 }
-
-.research img {
-	display: block;
-	width:100%;
-	margin: 1em auto 0 auto;
-}
-
 .column img {
 	display: block;
-	width:75%;
+	width: 75%;
 	margin: 0 auto 0 auto;
 }
 
-.column #climate {
-	width: 50%;
+.projects img {
+	display: block;
+	width: 75%;
+	margin: 0 auto 0 auto;
+	border: 2px solid #A8A8AC;
+	padding: 2em;
+}
+
+.solar img {
+	display: block;
+	width: auto;
+	height: 20em;
+	margin: 0 auto 0 auto;
+}
+
+#economics {
+	text-align: left;
+}
+
+.projects {
+	margin-top: 2em;
 }
 
 section#contact {
-	padding: 2em 0 2em 0;
+	padding: 2em 0 3em 0;
 	background-image:url("images/midd_fall.jpg");
 	background-size:cover;
 	background-attachment:fixed;
@@ -205,64 +269,23 @@ section#contact {
 	margin: 0 auto 0 auto;
 	width:50%;
 	border-radius: .5em;
+	text-align: left;
+	padding: 1em 1.5em 1.5em 1.5em;
 }
 
-
-h1 {
-	color: white;
-	font-size:4em;
-	line-height:1.2em;
-	margin-bottom:.5em;
-	font-family: 'Gotham A', 'Gotham B', sans-serif;
-	font-weight:600;
-}
-
-h2 {
-	border-bottom: 4px solid #33D685;
-	margin-bottom: .5em;
-	font-size:2em;
-	color: #336699;
-	font-family: 'Gotham A', 'Gotham B', sans-serif;
-	font-weight: 500;
-	display: inline-block;
-}
-
-h3{
+#contact_info h4 {
+	font-style: none;
 	color: #33D685;
-	font-size: 1.5em;
-	/*font-family: 'Varela Round', arial, sans-serif;*/
-	font-family:'trebuchet ms', sans-serif;
-}
-
-h4{
-	font-size: 14px;
-	color: black;
-	font-family: 'Lucida Bright', Georgia, serif;
-	padding: 1em 0;
-	font-style: italic;
-	font-weight: normal;
 
 }
 
-p {
-	font-size: 14px;
-	line-height: 1.5;
-	color: black;
-	font-family: 'Lucida Bright', Georgia, serif;
-	text-align: left;
+#last {
+	padding-bottom: 1em;
+	border-bottom: 1px solid #4d4d4d;
 }
-
-li {
-	font-size: 12px;
-	line-height: 1.5;
-	color: black;
-	font-family: 'Lucida Bright', Georgia, serif;
-	text-align: left;
-}
-
-
 
 .green {
+	line-height: 2em;
 	font-style: italic;
 	font-color: green;
 }
