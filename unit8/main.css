@@ -296,6 +296,26 @@ section#contact {
 	clear: both;
 }
 
+@media only screen and (max-width: 800px){
+	#AboutMe img {
+	width:16em;
+	margin: 3.75em auto 0 auto;
+	border-radius: .5em;
+}
+	#Aboutmetext {
+		float:none;
+		width: 100%;
+	}
+
+@media only screen and (max-width: 480px){
+	nav li {
+		float: none;
+		text-align: center;
+	}
+
+
+}
+
 /*NOTES
 	font-family: 'EB Garamond', serif;
 	p.center {
