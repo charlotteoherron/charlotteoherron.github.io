@@ -304,7 +304,7 @@ section#contact {
 	clear: both;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 481px) and (max-width: 800px) {
 	.wrap{
 		padding: 2em;
 	}
@@ -313,7 +313,7 @@ section#contact {
 	width:100%;
 	margin: 3.75em auto 0 auto;
 	border-radius: .5em;
-}
+	}
 	#Aboutmetext {
 		float:none;
 		width: 100%;
@@ -354,12 +354,15 @@ section#contact {
 	
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 0px) and (max-width: 480px) {
 	 #splash {
-	 	background-image: none;
+	 	background: none;
 		background-color: yellow;
 		}
-
+		
+	#splash h1 {
+			font-color: red;
+		}
  	nav li {
 		float: none;
 		text-align: center;
