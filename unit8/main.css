@@ -63,7 +63,12 @@ li {
 
 }
 
-section#splash {
+a {
+	text-decoration: none;
+	color: #4d4d4d;
+}
+
+#splash {
 	background-image:url("images/cowblue2.jpg");
 	background-size:cover;
 	background-attachment:fixed;
@@ -84,14 +89,6 @@ section#splash p{
 	font-weight: 700;
 	text-align: center;
 }
-
-/*
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	color:#666699;
-	width:50%;
-	*/
 
 nav {
 	background-color: #FFFFFD;
@@ -174,7 +171,7 @@ section#AboutMe {
 
 #Academics{
 	text-align: center;
-	padding: 2em 0 2em 0;
+	padding: 3em 0 3em 0;
 	background-color: #FFFFFD;
 }
 
@@ -186,11 +183,14 @@ section#AboutMe {
 	margin-left: 1.5em;
 }
 
+#Academics h2{
+	margin-bottom: 1em;
+}
 
-.column{
+.column {
 	float:left;
 	width:50%;
-	margin:0 auto 0 auto;
+	margin:1em auto 0 auto;
 	padding:1em 1em;
 	border-radius: .25em;
 }
@@ -208,7 +208,7 @@ section#AboutMe {
 	background-color: #FFFFFD;
 	float:left;
 	/*margin:.5%;*/
-	padding:1em 2em;
+	padding:1em 2em 2em 2em;
 	width:49%;
 	margin:.5%;
 	border-radius: .5em;
@@ -228,9 +228,14 @@ section#AboutMe {
 #Research {
 	text-align: center;
 	background-color: #FFFFFD;
-	margin-bottom: 2em;
+	margin-bottom: 3em;
 
 }
+
+#Research h2{
+	margin-bottom: 1em;
+}
+
 .column img {
 	display: block;
 	width: 75%;
@@ -257,19 +262,25 @@ section#AboutMe {
 }
 
 .projects {
-	margin-top: 2em;
+	float:left;
+	width:50%;
+	margin:2em auto 0 auto;
+	padding:1em 1em;
+	border-radius: .25em;
 }
 
 section#contact {
-	padding: 2em 0 3em 0;
+	padding: 2em 0 4em 0;
 	background-image:url("images/midd_fall.jpg");
 	background-size:cover;
 	background-attachment:fixed;
 	background-repeat:no-repeat;
 	text-align: center;
 }
+
 #contact h2 {
 	color: white;
+	margin: 1em 0 1em 0;
 }
 
 #contact_info {
@@ -278,7 +289,7 @@ section#contact {
 	width:50%;
 	border-radius: .5em;
 	text-align: left;
-	padding: 1em 1.5em 1.5em 1.5em;
+	padding: 1em 1.5em 2em 1.5em;
 }
 
 #contact_info h4 {
@@ -310,12 +321,13 @@ section#contact {
 	}
 
 	#AboutMe img {
-	width:100%;
+	width:90%;
 	margin: 3.75em auto 0 auto;
 	border-radius: .5em;
 	}
+
 	#Aboutmetext {
-		float:none;
+		float: none;
 		width: 100%;
 	}
 
@@ -330,6 +342,7 @@ section#contact {
 	#Academics .column {
 		width: 100%;
 	}
+
 	.column>div {
 		width: 45%;
 		margin: .5em;
@@ -341,11 +354,15 @@ section#contact {
 	}
 
 	.spain {
-	margin-top: 0;
+	margin-top: 0px;
 	}
 
 	#AboutMe #Experience #contact {
-		background-attachment: scroll}
+		background-attachment: scroll;
+	}
+
+	.projects>div {
+		float: none;
 	}
 
 	#contact_info {
@@ -355,32 +372,108 @@ section#contact {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 480px) {
-	 #splash {
-	 	background: none;
-		background-color: yellow;
+	h1 {
+		color: white;
+		font-size:3em;
+	}
+
+	section#splash p{
+		font-size:1.6em;
+	}
+
+	#splash div {
+		width: 80%;
+	}
+
+	.span {
+		font-color: red;
+		font-size: 4em;
+	}
+
+	.wrap {
+		padding: 2.5em;
+	}
+
+	#AboutMe img {
+		width:50%;
+		margin: 0 auto 2em auto;
+		border-radius: .5em;
+	}
+
+	#Aboutmetext {
+		float: none;
+		width:100%;
+	}
+
+	#Aboutmetext {
+		text-align: justify;
+	}
+
+	#Aboutmetext p {
+		text-align: justify;
+	}
+
+	.squares {
+		width: 100%;
+	}
+
+	.projects {
+		width: 100%;
+	}
+
+	.projects img {
+		width: 80%;
+	}
+
+	#Academics .column {
+		width: 100%;
+	}
+	.column>div {
+		width: 100%;
+		margin-bottom: 2em;
+	}
+
+	#middlebury {
+		margin-top: 0px;
+	}
+
+	.spain {
+		margin-top: 0px;
+	}
+
+	#AboutMe #Experience #contact {
+		background-attachment: scroll;
+	}
+
+	#contact_info {
+		width: 80%;
+	}
+	#splash{
+		background-image:url("images/Midd2.jpg");
+		background-size:cover;
+		background-attachment:scroll;
+		background-repeat:no-repeat;
+		height:100vh;
+	}
+
+/*
+	#splash {
+	 	background-image: none;
+		background-color: #33D685;
 		}
 		
-	#splash h1 {
-			font-color: red;
-		}
+ 
  	nav li {
 		float: none;
 		text-align: center;
 	}
+	*/
 
 	.column {
 		width: 100%;
 		padding: 0;
-		margin: 0;
-	}
-
-	.column>div {
-		width: 100%;
-		margin: 0;
-	}
-
-	#middlebury {
-		margin-top: 0;
+		margin-top: 1em;
+		margin-bottom: 2em
 	}
 
 	#contact {
@@ -388,8 +481,6 @@ section#contact {
 		background-color: yellow;
 	}
 }
-
-*/
 
 /*NOTES
 	font-family: 'EB Garamond', serif;
