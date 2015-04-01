@@ -124,10 +124,6 @@ nav li {
 	margin: none;
 }
 
-.mobile-nav {
-	display: none;
-}
-
 section#AboutMe {
 	padding: 3em 0;
 	background-color: #FFFFFD;
@@ -276,6 +272,13 @@ section#AboutMe {
 	padding:1em 1em;
 	border-radius: .25em;
 }
+.projects2 {
+	float:left;
+	width:50%;
+	margin:2em auto 0 auto;
+	padding:1em 1em;
+	border-radius: .25em;
+}
 
 section#contact {
 	padding: 2em 0 4em 0;
@@ -313,6 +316,39 @@ section#contact {
 	line-height: 2em;
 	font-style: italic;
 	font-color: green;
+}
+
+.mobile-nav {
+	display: none;
+}
+.menu-btn div {
+	position: absolute;
+	left: 100%;
+	top: 64%;
+	padding-right: 8px;
+	margin-top: -0.50em;
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: 200;
+	vertical-align: middle;
+	z-index: 99;
+}
+
+.menu-btn span {
+	display: block;
+	width: 19px;
+	height: 3px;
+	margin: 4px 0;
+	background: rgb(0,0,0);
+	z-index: 99;
+}
+
+.responsive-menu{
+	display: none;
+}
+
+.expand {
+	display: block !important; 
 }
 
 .clearfix:after { 
@@ -372,9 +408,9 @@ section#contact {
 	#AboutMe #Experience #contact {
 		background-attachment: scroll;
 	}
-
-	.projects>div {
-		float: none;
+	.projects2 {
+		float:none;
+		width:100%;
 	}
 
 	#contact_info {
@@ -446,6 +482,10 @@ section#contact {
 	.projects {
 		width: 100%;
 	}
+	.projects2 {
+		float:none;
+		width:100%;
+	}
 
 	.projects img {
 		width: 90%;
@@ -497,37 +537,6 @@ section#contact {
 	#contact {
 		background: none;
 		background-color: yellow;
-	}
-
-	.menu-btn div {
-		position: absolute;
-		left: 100%;
-		top: 64%;
-		padding-right: 8px;
-		margin-top: -0.50em;
-		line-height: 1.2;
-		font-size: 18px;
-		font-weight: 200;
-		vertical-align: middle;
-		z-index: 99;
-	}
-	 
-	.menu-btn span {
-		display: block;
-		width: 2em;
-		height: .25em;
-		margin: .25em 0;
-		background: rgb(0,0,0);
-		z-index: 99;
-	}
-	 
-	.responsive-menu{
-		display: none;
-	}
-	 
-	.expand {
-		display: block !important; 
-		background: black;
 	}
 
 }
