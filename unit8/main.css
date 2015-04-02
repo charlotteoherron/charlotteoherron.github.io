@@ -19,7 +19,9 @@ h2 {
 	border-bottom: 4px solid #33D685;
 	margin-bottom: .5em;
 	font-size:2em;
-	color: #336699;
+	color: #001A4C;
+	/*
+	color: #336699;*/
 	font-family: 'Gotham A', 'Gotham B', sans-serif;
 	font-weight: 500;
 	display: inline-block;
@@ -55,9 +57,8 @@ p {
 }
 
 li {
-	font-size: 14px;
 	line-height: 1.5;
-	color: #4d4d4d;
+	color: #001A4C;
 	font-family: 'vollkorn', serif;
 	text-align: left;
 
@@ -65,7 +66,7 @@ li {
 
 a {
 	text-decoration: none;
-	color: #4d4d4d;
+	color: #001A4C;
 }
 
 #splash {
@@ -95,7 +96,7 @@ nav {
 }
 
 nav a {
-	color: #336699;
+	color: #001A4C;
 	display:block;
 	text-decoration: none;
 	margin: 2em 0;
@@ -108,7 +109,7 @@ nav a {
 }
 
 a:hover{
-	color: #5F9EA0;
+	color: #33D685;
 }
 
 nav ul{
@@ -153,7 +154,7 @@ section#AboutMe {
 	background-size:cover;
 	background-attachment:fixed;
 	background-repeat:no-repeat;
-	text-align: center;
+	text-align:center;
 }
 
 #Experience h2{
@@ -233,7 +234,6 @@ section#AboutMe {
 	text-align: center;
 	background-color: #FFFFFD;
 	margin-bottom: 3em;
-
 }
 
 #Research h2{
@@ -286,7 +286,7 @@ section#contact {
 	background-size:cover;
 	background-attachment:fixed;
 	background-repeat:no-repeat;
-	text-align: center;
+	text-align:center;
 }
 
 #contact h2 {
@@ -339,7 +339,7 @@ section#contact {
 	width: 19px;
 	height: 3px;
 	margin: 4px 0;
-	background: rgb(0,0,0);
+	background: #00143D;
 	z-index: 99;
 }
 
@@ -351,6 +351,32 @@ section#contact {
 	display: block !important; 
 }
 
+.menu-btn a:hover{
+	color:#E2E2E2;
+}
+
+.mobile-nav a {
+	padding-top:.5em;
+	color: white;
+	font-weight:300;
+}
+
+.mobile-nav li {
+	padding-top: .5em;
+}
+
+.mobile-nav ul {
+	list-style: none;
+}
+
+.mobile-nav a:hover{
+	color: #E2E2E2;
+}
+
+.logo a:hover{
+	color: #E2E2E2;
+}
+
 .clearfix:after { 
 	content: "."; 
 	visibility: hidden; 
@@ -359,7 +385,7 @@ section#contact {
 	clear: both;
 }
 
-@media only screen and (min-width: 481px) and (max-width: 800px) {
+@media only screen and (min-width: 481px) and (max-width: 750px) {
 	.wrap{
 		padding: 2em;
 	}
@@ -423,8 +449,11 @@ section#contact {
 	
 	.logo {
 		display: block;
-		font-color: black;
 		float: right;
+	}
+
+	header a {
+		color: white;
 	}
 
 	#first-nav {
@@ -434,10 +463,16 @@ section#contact {
 	.mobile-nav {
 		display: block;
 	}
+
 	header {
 		position:fixed;
 		top:0;left:0;right:0;
-		background:#fff;
+		background:#33D685;
+		padding: 1em;
+	}
+
+	header h3 {
+		font-color:white;
 	}
 
 	h1 {
@@ -516,6 +551,14 @@ section#contact {
 		margin-top: 0px;
 	}
 
+	#contact h2{
+		color: #336699;
+	}
+
+	#Experience h2 {
+		color: #001A4C;
+	}
+
 	#AboutMe #Experience #contact {
 		background-attachment: scroll;
 	}
@@ -539,9 +582,14 @@ section#contact {
 		margin-bottom: 2em
 	}
 
-	#contact {
-		background: none;
-		background-color: yellow;
+	section#contact {
+		background-image:none;
+		background-color:#FFFF99;
+		}
+
+	#Experience {
+		background-image:none;
+		background-color:#FCFCFC;
 	}
 
 }
